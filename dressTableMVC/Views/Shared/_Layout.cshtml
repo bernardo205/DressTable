@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - WebApplication1</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=MonteCarlo&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <button class="navbar-toggler nav-btn secret-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand"><img src="~/img/logoDT - Horizontal - cores.png" alt="" style="margin-top:15px; max-width: 150px;"></a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" asp-action="index" asp-controller="Home"><strong>Home</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">areas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-action="produtos" asp-controller="Home">produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">personalizar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">sustentibilidade</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">contactos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">pt</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    @RenderBody()
+    <footer>
+        <div class="index-footer">
+			<div class="footer-text">. fale connosco. fale connosco. fale connosco . fale connosco</div>
+			<div class="logo-index-footer">
+                <img src="img/logoDT - Carimbo - branco.png" alt="" class="logo-carimbo" style="max-width:150px;">
+				<div class="socialMedia">
+					<img src="img/facebook-app-symbol_20837.png" alt="" style="max-width: 15px;">
+					<img src="img/instagram_1077042.png" alt="" style="max-width: 15px;">
+					<img src="img/whatsapp_2111774.png" alt="" style="max-width: 15px;">
+				</div>
+				<p class="logo-text logo-p1">privacidade . cookies . litígios . livro de reclamações</p>
+				<p class="logo-text logo-p2">Dress Table, Lda &copy; todos os direitos reservados . desenvolvido por Bomsite</p>
+			</div>
+        </div>
+        <!-- footer produtos -->
+        <div class="produtos-footer">
+            <p class="footer-text-produto">vamos falar?</p>
+            <form>
+                <div class="row form-input">
+                    <div class="col-sm-12 col-12">
+                        <input type="email" class="form-control form-input" placeholder="nome da pessoa de contato*">
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <input type="text" class="form-control form-input" placeholder="email*">
+                    </div>
+                    <div class="col-sm-12 col-md-6  ">
+                        <input type="text" class="form-control form-input" placeholder="contacto*">
+                    </div>
+                    <div class="col-sm-12 col-md-6  ">
+                        <input type="text" class="form-control form-input" placeholder="área-atividade">
+                    </div>
+                    <div class="col-sm-12 col-md-6  ">
+                        <input type="text" class="form-control form-input" placeholder="nome do estabelecimento">
+                    </div>
+                    <div class="col-12">
+                        <input type="text" class="form-control form-input" placeholder="mensagem*">
+                    </div>
+                </div>
+                <div class="row term-send">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" style="margin-left: 10px;">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Li e aceito o processamento dos meus dados pessoais de acordo com a Política de Privacidade
+                    </label>
+                    <button type="submit" class="btn btn-primary col-3" style="margin-top: 10px;">enviar</button>
+                </div>
+            </form>
+            <div class="logo-produto-footer">
+                <img src="img/logoDT - Carimbo - branco.png" alt="" class="logo-carimbo" style="max-width:150px;">
+                <div class="socialMedia">
+                    <img src="img/facebook-app-symbol_20837.png" alt="" style="max-width: 15px;">
+                    <img src="img/instagram_1077042.png" alt="" style="max-width: 15px;">
+                    <img src="img/whatsapp_2111774.png" alt="" style="max-width: 15px;">
+                </div>
+                <p class="logo-text logo-p1">privacidade . cookies . litígios . livro de reclamações</p>
+                <p class="logo-text logo-p2">Dress Table, Lda &copy; todos os direitos reservados . desenvolvido por Bomsite</p>
+            </div>
+        </div>
+
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

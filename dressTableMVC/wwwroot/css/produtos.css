@@ -1,0 +1,273 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.index-footer{
+    display: none;
+}
+
+header {
+    height: 1000px;
+    margin-bottom: 0px
+}
+
+.image-header-container{
+    top: 50px ;
+    width: 650px;
+    height: 900px;
+    position: relative;
+    left: 750px;
+    border-radius: 20px;
+    background: url('../img/minimal-white-table-assortment.jpg');
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.header-text-area{
+    position: relative;
+    top: -810px;
+    left: 150px;    
+    width: 550px;
+}
+
+.p2{
+    font-family: Bona Nova; 
+    font-size:90px; 
+    color: #8699a3;
+    position: relative;
+    top: -15px;
+}
+
+.p3{
+    position: relative;
+    top: -60px;
+    font-family: Bona Nova; 
+    font-size:90px; 
+    color: #8699a3;
+}
+
+.p4{
+    position: relative;
+    top: -180px;
+    left: 40px;
+    font-family: MonteCarlo; 
+    font-size: 160px;
+    color: #d1d7ad;
+}
+
+.sec-text-area{
+    margin: 0px;
+    position: relative;
+    top: -100px;
+}
+
+.main-card-area{
+    position: relative;
+    top: 0px;
+    left: 50px;
+}
+
+.card-image{
+    max-width: 350px;
+    height: 350px;
+    border: 1px beige solid;
+}
+
+.ecoCard {
+    width: 1200px;
+    height: 350px;
+    position: relative;
+    left: 100px;
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+.ecoCard-text-area{
+    position: relative;
+    left: 150px;
+}
+
+.ecoCard-mini{
+    display: none;
+}
+
+@media only screen and (max-width:1024px){
+
+    .image-header-container{
+        height: 700px ; 
+        width: 550px;
+        left: 450px;
+    }
+
+    .header-text-area{
+        top: -600px;
+        left: 30px;
+    }
+
+    .sec-text-area{
+        width: 400px;
+        left: 30px;
+        font-size: 15px
+    }
+
+    .ecoCard {
+        width: 700px;
+        left: 150px;
+    }
+
+    .ecoCard-img {
+        max-width: 700px;
+    }
+
+    form{
+        left: 60px;
+    }
+
+    .logo-produto-footer{
+        left: 390px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+    header {
+        margin-bottom: 50px;
+    }
+
+    .image-header-container {
+        background: none;
+    }
+
+    .header-text-area {
+        left: 155px;
+    }
+    
+    .sec-text-area{
+        width : 600px;
+        font-size: 20px;
+        left: -20px;
+    }
+
+    .main-card-area {
+        left: 150px;
+    }
+
+    .ecoCard {
+        width: 700px;
+        left: 35px;
+    }
+
+    .ecoCard-img {
+        max-width: 700px;
+    }
+
+    form {
+        width: 600px;
+        margin-left: 20px;
+    }
+
+    .logo-produto-footer {
+        left: 250px;
+    }
+}
+
+@media only screen and (max-width:426px) {
+    
+    header{
+        height:780px;
+    }
+
+    .header-text-area{
+        height: 600px;
+        left: 50px;
+    }
+
+    .p2 {
+        font-size: 50px;
+    }
+
+    .p3 {
+        font-size: 50px;
+        top: -30px;
+    }
+
+    .p4 {
+        font-size: 100px;
+        top: -100px;
+        margin-bottom: 100px;
+    }
+
+    .sec-text-area {
+        top: -150px;
+        font-size: 11px;
+    }
+
+    main {
+        margin-top: -150px;
+        padding: auto;
+    }
+
+    .card {
+        width: 250px;
+        margin-left: -130px;
+    }
+
+    .ecoCard-big {
+        display: none;
+    }
+
+    .ecoCard-mini {
+        display: inherit;
+        left: 0px;
+        margin-bottom: 25px;
+    }
+
+    form{
+        left:20px;
+    }
+
+    .form-input {
+        width: 350px;
+    }
+
+    .term-send {
+        top: 270px;
+        left: 10px;
+    }
+
+    label {
+        position: relative;
+        left: 0px;
+        width: 200px;
+        font-size: 8px;
+    }
+
+    .logo-produto-footer {
+        left: 150px;
+        top: 350px;
+    }
+
+    .logo-carinbo {
+        max-width: 100px;
+    }
+
+    .socialMedia {
+        margin-top: 20px;
+        margin-left: 35px;
+    }
+
+    .logo-p1 {
+        font-size: 15px;
+        left: 50px
+    }
+
+    .logo-p2 {
+        font-size: 9px;
+        left: 11px
+    }
+}
+
+

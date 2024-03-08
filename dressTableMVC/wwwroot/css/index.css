@@ -1,0 +1,314 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.produtos-footer{
+    display: none;
+}
+
+header{
+    height: 800px;
+    margin-bottom: 0px
+}
+
+.image-header-container{
+    top: 50px;
+    width: 650px;
+    height: 700px;
+    left: 41.66%;
+    border-radius: 20px;
+    background: url('../img/top-view-dining-tables-without-food.jpg');
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.header-text-area{
+    top: -560px;
+    left: 8.33%;    
+    width: 550px;
+}
+
+.p1{
+    font-family: Bona Nova; 
+    font-size:20px; 
+    color: #8699a3;
+}
+
+.p2{
+        font-family:Sora; 
+        font-size:70px; 
+        color: #8699a3;
+        top: -15px;
+    }
+
+.p3 {
+    font-family: Bona Nova;
+    font-size: 70px;
+    color: #8699a3;
+    top: -60px;
+}
+
+.p4{
+    font-family: MonteCarlo; 
+    font-size: 180px;
+    color: #d1d7ad;
+
+    top: -180px;
+    left: 40px;
+}
+
+.explain-text-area{
+    width: 300px;
+    margin-left: 170px;
+    top: -600px;
+}
+
+.explain-text{
+    width: auto;
+    height: auto;
+    color: #4c5b63;
+    font-size: 15px;
+    margin: 0px;
+}
+
+.main-text-area{
+    left: 170px;
+        
+    width: 300px;
+}
+
+.main-p1{
+    font-family: Bona Nova;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.main-p2{
+    font-family: Sora;
+    font-size: 45px;
+ 
+    
+}
+
+.main-p2-1,.main-p2-2 ,.main-p2-3 {
+    margin: 0px;
+    margin-top:-15px;
+   
+
+}
+
+.main-card-area{
+    left: 100px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.card{
+    width: 400px;
+}
+
+.btn-mais{
+    left: 650px;
+    margin-bottom: 25px;    
+}
+
+.area-atuamos{
+    display: flex;
+    left: 173px;
+    margin-bottom:100px;
+}
+
+.atuamos-image{
+    width: 600px;
+    height: 400px;
+}
+
+.atuamos-p1{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.atuamos-p2{
+    font-size: 50px;
+    font-family: Bona Nova;
+    color: #4c5b63;
+    margin-top: -45px;
+    padding: 0px;
+}   
+
+footer{
+    height: 500px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .p4{
+        font-size: 150px;
+    }
+
+    .explain-text-area{
+        left: -50px;
+    }
+
+    .btn-mais{
+        left: 450px;
+    }
+
+    .atuamos-image{
+    
+        left: -90px;
+    }
+
+    .atuamos-text{
+    
+        left: -120px;
+    }
+
+    .footer-text{
+        font-size: 34px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .image-header-container{
+        background: none;
+    }
+
+    .explain-text{
+        width: 500px;
+        font-size: 25px;
+        left: 10%;
+        top: -50px;
+    }
+
+    .main-text-area{
+        left: 150px;
+        top: -10px;
+    }
+
+    .main-p1, .main-p2{
+        left: 20%;
+    }
+
+    .main-card-area{
+        left:150px
+    }
+    
+    .btn-mais{
+        left: 280px;
+    }
+
+    .atuamos-text{
+        left: 60px;
+        top: 25px;
+    }
+
+    .atuamos-image{
+        display: none;
+    }
+    
+    footer{
+        height: 400px;
+    }
+
+    .footer-text{
+        display: none;
+    }
+    
+    .logo{
+        left: 40%;
+    }
+
+    .logo-carimbo, .socialMedia{
+        left: -50px;
+    }
+
+    .logo-p1{
+        left: -80px
+    }
+
+    .logo-p2{
+        left: -80px;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+
+    .p1{
+        font-size: 15px;
+    }
+
+    .p2{
+        font-size: 65px ;
+        font-family: Bona Nova;
+    }
+
+    .p3{
+        font-size: 65px;
+    }
+
+    .p4{
+        margin-top: 30px;
+        margin-left: 0px;
+        font-size: 110px;
+    }
+
+    .explain-text-area {
+        width: 400px;   
+        left: -180px;
+        margin-top: 10px;
+    }
+
+    .explain-text{
+        font-size: 20px;
+    }
+
+    .main-text-area{
+        left: -5px;
+    }
+
+    .main-card-area{
+        left: 35px;
+    }
+
+    .card{
+        width: 350px;
+    }
+
+    .btn-mais{
+        left: 150px;
+        top: -25px;
+    }
+
+    .area-atuamos{
+        left: 50px;
+        top: -50px;
+    }
+    
+    .atuamos-p2{
+        font-size: 35px;
+        margin: -5px;
+    
+    }
+
+    .footer-div{
+        display: none;
+    }
+
+    .logo{
+        left: 150px;
+    }
+
+    .logo-p1{
+        font-size: 15px;
+        left: 0px;
+    }
+
+    .logo-p2{
+        font-size: 8px;
+        margin-left: -40px;
+    }
+}

@@ -1,0 +1,130 @@
+.bona-nova-regular {
+    font-family: "Bona Nova", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bona-nova-regular-italic {
+    font-family: "Bona Nova", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.bona-nova-bold {
+    font-family: "Bona Nova", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.sora {
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.montecarlo-regular {
+    font-family: "MonteCarlo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    color: #8699a3;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.secret-btn {
+    background-color: #d1d7ad;
+    height: 55px;
+    border-radius: 100%;
+    border: 1px #d1d7ad solid;
+}
+.textNav {
+    position: relative;
+    left: 450px;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+/* footers */
+/*comun atributes*/
+footer {
+    background-color: #8698a2;
+    height: 900px;
+
+}
+.footer-text {
+    color: #d1d7ad;
+    font-size: 50px;
+    margin-left: 70px;
+}
+.logo-carinbo {
+    max-width: 10px;
+}
+
+.socialMedia {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+.logo-text {
+    color: #d1d7ad;
+}
+
+.logo-p1 {
+    margin-top: 15px;
+    margin-left: -150px;
+    font-size: 25px;
+}
+
+.logo-p2 {
+    font-size: small;
+    margin-top: -15px;
+    margin-left: -90px;
+}
+/*index footer atributs*/
+.logo-index-footer {
+    position: relative;
+    top: 90px;
+    left: 45%;
+}
+/*products footer atributs*/
+.footer-text-produto {
+    position: relative;
+    top: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    color: #d1d7ad;
+}
+
+.form-input {
+    height: 45px;
+    margin-bottom: 10px;
+}
+
+form {
+    position: relative;
+    top: 50px;
+    left: 20%;
+    width: 800px;
+    margin: 30px;
+}
+
+.term-send {
+    position: relative;
+    top: 170px;
+    left: 10px;
+}
+.logo-produto-footer {
+    position: relative;
+    left: 45%;
+    top: 280px;
+}
