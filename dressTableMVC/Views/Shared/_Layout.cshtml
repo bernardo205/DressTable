@@ -11,42 +11,40 @@
     <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=MonteCarlo&family=Sora:wght@100..800&display=swap" rel="stylesheet">
 </head>
 <body>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <button class="navbar-toggler nav-btn secret-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <a class="navbar-brand"><img src="~/img/logoDT - Horizontal - cores.png" alt="" style="margin-top:15px; max-width: 150px;"></a>
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" asp-action="index" asp-controller="Home"><strong>Home</strong></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">sobre</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">areas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-action="produtos" asp-controller="Home">produtos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">personalizar</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">sustentibilidade</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">contactos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">pt</a>
-                        </li>
-                    </ul>
-                </div>
+    <nav class="navbar  navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand col-lg-5 col-xl-7 border-light img-change-1" asp-action="index" asp-controller="Home"><img src="~/img/logoDT - Horizontal - cores.png" style="max-width:150px;" /></a>
+            <a class="navbar-brand col-lg-5 col-xl-7 border-light img-change-2" asp-action="index" asp-controller="Home"><img src="~/img/logoDT - Carimbo - branco - noText.png" style="max-width:100px;" /></a>
+            <button class="navbar-toggler bg-color secret-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse col-lg-7 col-xl-5" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-current="page" asp-action="produtos" asp-controller="Home">sobre</a>
+                    </li>                    
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-current="page" asp-action="produtos" asp-controller="Home">áreas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" asp-action="produtos" asp-controller="Home">produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-current="page" asp-action="produtos" asp-controller="Home">personalizar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-current="page" asp-action="produtos" asp-controller="Home">sustentibilidade</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-current="page" asp-action="produtos" asp-controller="Home">contactos</a>
+                    </li>                
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-current="page" asp-action="produtos" asp-controller="Home">pt</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
     @RenderBody()
     <footer>
         <div class="index-footer">

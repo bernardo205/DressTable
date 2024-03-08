@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kz/vgPtAdDUqr7fQf+WWqT8PF3p1PpMzzV63bkUyi/maEMAe/iWsIbpO+X1dvhWRhihLtAf3inDvObVM1UmqCA==",
+  "dgSpecHash": "kT6kyd2MqJ5CTMQW/1pMzp559qGnT9osNy9vS5vcjyZtCLI058PqrOTrlNpNROflYGJWuDyJpyHmIvIdfzcfDw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\WebApplication1\\WebApplication1.csproj",
+  "projectFilePath": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\DressTable.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\berna\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\berna\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

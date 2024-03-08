@@ -106,13 +106,20 @@ header{
     margin-bottom: 50px;
 }
 
-.card{
+.card {
     width: 400px;
+    text-decoration: none;
 }
 
-.btn-mais{
+.card:hover {
+    border: 1px solid black;
+    transform: scale(1.05);
+    color: black;   
+}
+
+.btn-mais {
     left: 650px;
-    margin-bottom: 25px;    
+    margin-bottom: 25px;
 }
 
 .area-atuamos{

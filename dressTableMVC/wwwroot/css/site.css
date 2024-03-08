@@ -29,6 +29,11 @@
     font-style: normal;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 p {
     color: #8699a3;
 }
@@ -43,26 +48,41 @@ p {
     border-radius: 100%;
     border: 1px #d1d7ad solid;
 }
-.textNav {
-    position: relative;
-    left: 450px;
+
+.img-change-2 {
+    display: none;
 }
 
 html, body {
     overflow-x: hidden;
 }
+
+/* media query change logo at page width = 768px */
+
+@media only screen and (max-width: 768px){
+    .img-change-1{
+        display: none;
+    }
+    .img-change-2{
+        display: inherit;
+    }
+}
+
 /* footers */
 /*comun atributes*/
+
 footer {
     background-color: #8698a2;
     height: 900px;
 
 }
+
 .footer-text {
     color: #d1d7ad;
     font-size: 50px;
     margin-left: 70px;
 }
+
 .logo-carinbo {
     max-width: 10px;
 }
@@ -89,13 +109,17 @@ footer {
     margin-top: -15px;
     margin-left: -90px;
 }
+
 /*index footer atributs*/
+
 .logo-index-footer {
     position: relative;
     top: 90px;
     left: 45%;
 }
+
 /*products footer atributs*/
+
 .footer-text-produto {
     position: relative;
     top: 25px;
@@ -123,6 +147,7 @@ form {
     top: 170px;
     left: 10px;
 }
+
 .logo-produto-footer {
     position: relative;
     left: 45%;
