@@ -29,6 +29,10 @@
     font-style: normal;
 }
 
+html::-webkit-scrollbar {
+    display: none;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -38,8 +42,15 @@ p {
     color: #8699a3;
 }
 
-* {
-    box-sizing: border-box;
+.img-change-1 {
+    max-width: 203px;
+    position: relative;
+    left: 153px;
+}
+
+header .navbar-nav {
+    position: relative;
+    left: 592px;
 }
 
 .secret-btn {
@@ -57,7 +68,11 @@ html, body {
     overflow-x: hidden;
 }
 
-/* media query change logo at page width = 768px */
+
+
+
+
+
 
 @media only screen and (max-width: 768px){
     .img-change-1{

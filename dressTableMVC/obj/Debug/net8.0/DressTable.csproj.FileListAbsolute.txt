@@ -227,9 +227,9 @@ C:\Users\berna\Desktop\isla\Estagio\dressTable\dressTableMVC\obj\Debug\net8.0\st
 C:\Users\berna\Desktop\isla\Estagio\dressTable\dressTableMVC\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DressTable.props
 C:\Users\berna\Desktop\isla\Estagio\dressTable\dressTableMVC\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\berna\Desktop\isla\Estagio\dressTable\dressTableMVC\obj\Debug\net8.0\scopedcss\bundle\DressTable.styles.css
-C:\Users\berna\Desktop\isla\Estagio\dressTable\dressTableMVC\obj\Debug\net8.0\DressTable.csproj.CopyComplete
 C:\Users\berna\Desktop\isla\Estagio\dressTable\dressTableMVC\obj\Debug\net8.0\DressTable.dll
 C:\Users\berna\Desktop\isla\Estagio\dressTable\dressTableMVC\obj\Debug\net8.0\refint\DressTable.dll
 C:\Users\berna\Desktop\isla\Estagio\dressTable\dressTableMVC\obj\Debug\net8.0\DressTable.pdb
 C:\Users\berna\Desktop\isla\Estagio\dressTable\dressTableMVC\obj\Debug\net8.0\DressTable.genruntimeconfig.cache
 C:\Users\berna\Desktop\isla\Estagio\dressTable\dressTableMVC\obj\Debug\net8.0\ref\DressTable.dll
+C:\Users\berna\Desktop\isla\Estagio\dressTable\dressTableMVC\obj\Debug\net8.0\DressTable.csproj.Up2Date

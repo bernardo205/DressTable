@@ -1,104 +1,15 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    position: relative;
-}
+
 
 .produtos-footer{
     display: none;
 }
-
-header{
-    height: 800px;
-    margin-bottom: 0px
-}
-
-.image-header-container{
-    top: 50px;
-    width: 650px;
-    height: 700px;
-    left: 41.66%;
-    border-radius: 20px;
-    background: url('../img/top-view-dining-tables-without-food.jpg');
-    background-position: center;
-    background-size: auto;
-    background-repeat: no-repeat;
-}
-
-.header-text-area{
-    top: -560px;
-    left: 8.33%;    
-    width: 550px;
-}
-
-.p1{
-    font-family: Bona Nova; 
-    font-size:20px; 
-    color: #8699a3;
-}
-
-.p2{
-        font-family:Sora; 
-        font-size:70px; 
-        color: #8699a3;
-        top: -15px;
-    }
-
-.p3 {
-    font-family: Bona Nova;
-    font-size: 70px;
-    color: #8699a3;
-    top: -60px;
-}
-
-.p4{
-    font-family: MonteCarlo; 
-    font-size: 180px;
-    color: #d1d7ad;
-
-    top: -180px;
-    left: 40px;
-}
-
-.explain-text-area{
-    width: 300px;
-    margin-left: 170px;
-    top: -600px;
-}
-
-.explain-text{
-    width: auto;
-    height: auto;
-    color: #4c5b63;
-    font-size: 15px;
-    margin: 0px;
-}
-
+/*
 .main-text-area{
     left: 170px;
         
     width: 300px;
 }
 
-.main-p1{
-    font-family: Bona Nova;
-    font-size: 25px;
-    margin-bottom: 0px;
-}
-
-.main-p2{
-    font-family: Sora;
-    font-size: 45px;
- 
-    
-}
-
-.main-p2-1,.main-p2-2 ,.main-p2-3 {
-    margin: 0px;
-    margin-top:-15px;
-   
-
-}
 
 .main-card-area{
     left: 100px;
@@ -117,10 +28,7 @@ header{
     color: black;   
 }
 
-.btn-mais {
-    left: 650px;
-    margin-bottom: 25px;
-}
+
 
 .area-atuamos{
     display: flex;
@@ -145,11 +53,11 @@ header{
     margin-top: -45px;
     padding: 0px;
 }   
-
+*/
 footer{
     height: 500px;
 }
-
+/*
 @media only screen and (max-width: 1024px) {
     .p4{
         font-size: 150px;
@@ -318,4 +226,199 @@ footer{
         font-size: 8px;
         margin-left: -40px;
     }
+}*/
+
+.top-section {
+    display: flex;
+    height: 1085px;
+}
+
+
+.header-text-area {
+    height: 600px;
+    width: 600px;
+    position: relative;
+}
+
+    .top-text-area p {
+        z-index: 10;
+        position: relative;
+    }
+
+.p1 {
+    font-family: Bona Nova;
+    font-size: 20px;
+    color: #8699a3;
+    position: relative;
+    top: 190px;
+    left: 160px;
+}
+
+.p2 {
+    font-family: Sora;
+    color: #8699a3;
+    font-size: 95px;
+    position: relative;
+    top: 190px;
+    left: 160px;
+}
+
+.p3 {
+    font-family: Bona Nova;
+    color: #8699a3;
+    font-size: 130px;
+    position: relative;
+    top: 100px;
+    left: 160px;
+}
+
+.p4 {
+    font-family: MonteCarlo;
+    font-size: 185px;
+    color: #d1d7ad;
+    position: relative;
+    left: 225px;
+    top: -55px;
+}
+
+.bottom-text-area {
+    width: 300px;
+    height: auto;
+    margin: 0px;
+    position: relative;
+    left: 160px;
+    top: 170px;
+}
+
+.explain-text {
+    color: #4c5b63;
+    font-size: 15px;
+}
+
+.img-part{
+    position: relative;
+    left: 85px;
+    top: 85px;
+    z-index: 0;
+}
+
+.img-part img {
+    width: 650px;
+    height: 1000px;
+    border-radius: 20px;
+    object-fit: cover;    
+}
+
+.main-section {
+    margin: 160px;
+}
+
+
+.main-p1 {
+    font-family: Bona Nova;
+    font-size: 25px;
+    line-height: 2.5;
+}
+
+.main-p2 {
+    font-family: Sora;
+    font-size: 50px;
+    line-height: .9;
+}
+
+.main-card-area {
+    left: 100px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+main .card-body {
+    text-align: start;
+}
+
+.main-card-area .card-title {
+    font-size: 35px;
+    color: #8699a3;
+    font-family: Bona Nova;
+}
+
+.card {
+    width: 370px;
+    text-decoration: none;
+}
+
+main .card-image {
+    border-radius: 20px;     
+    height: 500px;
+    object-fit: cover;
+}
+
+.main-card-area .move {
+    position: relative; 
+    top: -165px;
+}
+
+.hide {
+    font-size: 35px;
+    width: 55px;
+    height: 55px;
+    background-color: #d1d7ad;
+    border-radius: 50%;
+    position: absolute;
+    top: 165px;
+    right: 15px;
+    display: none;
+    color: black;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card:hover > .hide {
+    display: block;
+}
+
+.card:hover > .card-image {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.card:hover > .main-card-area .card-title {
+    color: black;
+}
+
+.btn-mais {
+    position: relative;
+    left: 490px;
+    top: -150px;
+    width: 200px;
+    border-radius: 16px;
+    height: 60px;
+}
+
+.area-atuamos {
+    display: flex;
+    gap: 80px;
+}
+
+.area-atuamos img {
+    width: 600px;
+    height: 470px;
+    border-radius: 20px;
+    object-fit: cover;  
+}
+
+.atuamos-p1 {
+    position: relative;
+    top: 100px;
+    font-size: 20px;
+    font-family: Bona Nova;
+}
+
+.atuamos-p2 {
+    position: relative;
+    top: 100px;
+    font-size: 60px;
+    line-height: .9;
+    font-family: Bona Nova;
 }

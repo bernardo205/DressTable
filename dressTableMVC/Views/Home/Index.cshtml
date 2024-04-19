@@ -5,128 +5,155 @@
     <link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
 </head>
 
-<body>
-    <header> 
-        <div class="image-header-container"></div>
-        <div class="header-text-area">
-            <div class="p1">. hotel & restaurant supplies</div>
-            <div class="p2">vestimos</div>
-            <div class="p3">mesas com</div>
-            <div class="p4">Elegância</div>
-        </div>
-        <div class="explain-text-area">
-            <p class="explain-text">A Dress Table foca-se na produção  </p>
-            <p class="explain-text"> de produtos para personalizados para  </p>
-            <p class="explain-text"> promover e elevar o seu <strong>RESTAURANTE</strong>,  </p>
-            <p class="explain-text"> <strong>HOTEL</strong> e serviço de <strong>CATERING</strong> , com  </p>
-            <p class="explain-text"> total qualidade e elegância. </p>
-        </div>
-    </header>
-    <main>
-        <div class="main-text-area">
-            <p class="main-p1">. produtos personalizados</p>
-            <div class="main-p2">
-                <p class="main-p2-1">elevar a sua
-                <p class="main-p2-2"> marca em
-                <p class="main-p2-3">cada detalhe</p>
+ 
+<main>
+    <!--
+
+
+
+    </div>-->
+    
+
+    <div class="top-section">
+        <div class="text-part">
+            <div class="top-text-area">
+                    <p>
+                        <span class ="p1">. hotel & restaurant supplies</span> <br />
+                        <span class="p2">vestimos</span> <br />
+                        <span class="p3">mesas com</span> <br />
+                        <span class="p4">Elegância</span>
+					</p>
+            </div>
+            <div class="bottom-text-area">
+                <p class="explain-text">
+                    A Dress Table foca-se na produção <br/>
+                    de produtos para personalizados para <br/>
+                    promover e elevar o seu <strong>RESTAURANTE</strong>, <br/>
+                    <strong>HOTEL</strong> e serviço de <strong>CATERING</strong> , com <br/>
+                    total qualidade e elegância. </p>
             </div>
         </div>
-        <div class="row row-cols-l row-cols-md-3 g-4 main-card-area">
+        <div class="img-part">
+                <div id="carouselExampleSlidesOnly" class="carousel carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="~/img/flat-lay-dark-dinnerware-with-chopsticks-napkin_23-2148798064.jpg" class="d-block" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="10000">
+                            <img src="~/img/minimal-white-table-assortment.jpg" class="d-block" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="10000">
+                            <img src="~/img/top-view-dining-tables-without-food.jpg" class="d-block" alt="...">
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="main-section">
+        <div class="main-text-area">
+            <p><span class="main-p1">. produtos personalizados</span> <br />
+				<span class="main-p2">elevar a sua <br /> marca em <br /> cada detalhe</span>
+            </p>
+        </div>
+        <div class="row row-cols-l row-cols-md-3 main-card-area" style="gap: 19px;">
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4" style="width: auto;">
                 <div class="card text-center border-light">
                     <div class="card-body">
-                        <h5 class="card-title">bolsa talheres e acessórios</h5>
+                        <h5 class="card-title">bolsa talheres <br />e acessórios</h5>
                         <p class="card-text">
                             artigos descartáveis e acessórios por <br>
                             medida, em diferentes materiais e <br>
                             modelos total mente personalizáveis
                         </p>
                     </div>
-                    <img src="img/donaBia.jpg" class="card-img-bottom card-image" alt="..." style="border-radius: 20px;">
+                    <img src="img/donaBia.jpg" class="card-img-bottom card-image" alt="...">
+                    <div class="hide">&#8599;</div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4" style="width: auto;">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 move" style="width: auto;">
                 <a asp-action="produtos" asp-controller="Home">
-
-                <div class="card text-center border-light">
-                    <div class="card-body">
-                        <h5 class="card-title">guardanapos descartaveis</h5>
-                        <p class="card-text">
-                            vasta variedade de modelos, em diferentes <br>
-                            tipos de materiais descartáveis, do P&P aos <br>
-                            materiais da gama tecido-nào-tecido
-                        </p>
+                    <div class="card text-center border-light">
+                        <div class="card-body">
+                            <h5 class="card-title">guardanapos<br /> descartaveis</h5>
+                            <p class="card-text">
+                                vasta variedade de modelos, em diferentes <br>
+                                tipos de materiais descartáveis, do P&P aos <br>
+                                materiais da gama tecido-nào-tecido
+                            </p>
+                        </div>
+                        <img src="img/guardanapo0.jpg" class="card-image" alt="...">
+                        <div class="hide">&#8599;</div>
                     </div>
-                    <img src="img/guardanapo0.jpg" class="card-img-bottom" alt="..." style="border-radius: 20px;">
-                </div>
                 </a>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4" style="width: auto;">
                 <div class="card text-center border-light">
                     <div class="card-body">
-                        <h5 class="card-title">toalhas de mesa anti-nódoa</h5>
+                        <h5 class="card-title">toalhas de mesa <br /> anti-nódoa</h5>
                         <p class="card-text">
                             com confeçào própria, produzidas por <br>
                             medida, em tecido anti-nódoa resinado, <br>
                             permitindo uma limpeza fácil
                         </p>
                     </div>
-                    <img src="img/toalhaMesa.jpg" class="card-img-bottom" alt="..." style="border-radius: 20px;">
+                    <img src="img/toalhaMesa.jpg" class="card-image" alt="...">
+                    <div class="hide">&#8599;</div>
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4" style="width: auto;">
                 <div class="card text-center border-light">
                     <div class="card-body">
-                        <h5 class="card-title"> caminhos de mesa - runners</h5>
+                        <h5 class="card-title"> caminhos de <br /> mesa - runners</h5>
                         <p class="card-text">
                             confecionados por medida, personalizáveis, <br>
                             em diferentes tipos de materiais descartáveis <br>
                             ou em tecido anti-módoa resinado
                         </p>
                     </div>
-                    <img src="img/caminhoMesa.jpg" class="card-img-bottom" alt="..." style="border-radius: 20px; height: 399px;">
+                    <img src="img/caminhoMesa.jpg" class="card-image" alt="...">
+                    <div class="hide">&#8599;</div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4" style="width: auto;">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 move" style="width: auto;">
                 <div class="card text-center border-light">
                     <div class="card-body">
-                        <h5 class="card-title">acessórios de mesas e ementas</h5>
+                        <h5 class="card-title">acessórios de <br /> mesas e ementas</h5>
                         <p class="card-text">
                             vasta gama de ementas-menus e acessórios <br>
                             adicionais de mesa, em diferentes materiais <br>
                             e modelos, personalizados com a sua marca
                         </p>
                     </div>
-                    <img src="img/cardapioMesa.jpg" class="card-img-bottom" alt="..." style="border-radius: 20px; height: 399px;">
+                    <img src="img/cardapioMesa.jpg" class="card-image" alt="...">
+                    <div class="hide">&#8599;</div>
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4" style="width: auto;">
                 <div class="card text-center border-light">
                     <div class="card-body">
-                        <h5 class="card-title">individuais de mesa</h5>
+                        <h5 class="card-title">individuais <br /> de mesa</h5>
                         <p class="card-text">
                             soluções de individuais de mesa, de <br>
                             fácil limpeza e de grande resistência, <br>
                             para uma utilização profissional
                         </p>
                     </div>
-                    <img src="img/individuaisMesa.jpg" class="card-img-bottom" alt="..." style="border-radius: 20px; height: 399px;">
+                    <img src="img/individuaisMesa.jpg" class="card-image" alt="...">
+                    <div class="hide">&#8599;</div>
                 </div>
             </div>
         </div>
         <button type="button" class="btn btn-outline-secondary btn-mais">Mais produtos</button>
         <div class="area-atuamos">
             <div class="atuamos-image">
-                <img src="img/areaAtuamos.jpg" alt="" style="max-width: 600px; height: 400px; border-radius: 20px; ">
+                <img src="img/areaAtuamos.jpg" />
             </div>
             <div class="atuamos-text">
                 <p class="atuamos-p1">. áreas que atuamos</p>
-                <p class="atuamos-p2">restauração</p>
-				<p class="atuamos-p2">hotelaria</p>
-				<p class="atuamos-p2">catering-eventos</p>
-				<p class="atuamos-p2">horeca</p>                
-                </p>
+                <p class="atuamos-p2">restauração <br /> hotelaria <br /> catering-eventos <br /> horeca</p>
             </div>
         </div>
-    </main>
-</body>
+    </div>
+
+</main>
+    
