@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Q3yh9oAeIZ1rPWj6iS6z3D1NpS8ngeE9nvGY+7JcLhw=",
+  "Hash": "v9Jf1GI+D9mUs6l9eLbvmiHnYTLlqMtVn5cLwZf+BUI=",
   "Source": "DressTable",
   "BasePath": "_content/DressTable",
   "Mode": "Default",
@@ -129,25 +129,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\index.css"
-    },
-    {
-      "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\css\\mediaQueryProduto.css",
-      "SourceId": "DressTable",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\",
-      "BasePath": "_content/DressTable",
-      "RelativePath": "css/mediaQueryProduto.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\mediaQueryProduto.css"
     },
     {
       "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\css\\navbar.css",
@@ -321,12 +302,12 @@
       "OriginalItemSpec": "wwwroot\\img\\donaBia.jpg"
     },
     {
-      "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\img\\facebook-app-symbol_20837.png",
+      "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\img\\Facebook.png",
       "SourceId": "DressTable",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\",
       "BasePath": "_content/DressTable",
-      "RelativePath": "img/facebook-app-symbol_20837.png",
+      "RelativePath": "img/Facebook.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -337,7 +318,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\facebook-app-symbol_20837.png"
+      "OriginalItemSpec": "wwwroot\\img\\Facebook.png"
     },
     {
       "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\img\\flat-lay-dark-dinnerware-with-chopsticks-napkin_23-2148798064.jpg",
@@ -492,12 +473,12 @@
       "OriginalItemSpec": "wwwroot\\img\\individuaisMesa.jpg"
     },
     {
-      "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\img\\instagram_1077042.png",
+      "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\img\\Instagram.png",
       "SourceId": "DressTable",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\",
       "BasePath": "_content/DressTable",
-      "RelativePath": "img/instagram_1077042.png",
+      "RelativePath": "img/Instagram.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -508,7 +489,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\instagram_1077042.png"
+      "OriginalItemSpec": "wwwroot\\img\\Instagram.png"
     },
     {
       "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\img\\logoDT - Carimbo - branco - noText.png",
@@ -568,6 +549,25 @@
       "OriginalItemSpec": "wwwroot\\img\\logoDT - Horizontal - cores.png"
     },
     {
+      "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\img\\menu.png",
+      "SourceId": "DressTable",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\",
+      "BasePath": "_content/DressTable",
+      "RelativePath": "img/menu.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\menu.png"
+    },
+    {
       "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\img\\minimal-white-table-assortment.jpg",
       "SourceId": "DressTable",
       "SourceType": "Discovered",
@@ -625,12 +625,12 @@
       "OriginalItemSpec": "wwwroot\\img\\top-view-dining-tables-without-food.jpg"
     },
     {
-      "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\img\\whatsapp_2111774.png",
+      "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\img\\WhatsApp.png",
       "SourceId": "DressTable",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\",
       "BasePath": "_content/DressTable",
-      "RelativePath": "img/whatsapp_2111774.png",
+      "RelativePath": "img/WhatsApp.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -641,7 +641,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\whatsapp_2111774.png"
+      "OriginalItemSpec": "wwwroot\\img\\WhatsApp.png"
     },
     {
       "Identity": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\js\\site.js",

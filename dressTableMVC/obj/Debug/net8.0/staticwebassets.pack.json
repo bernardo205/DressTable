@@ -13,10 +13,6 @@
       "PackagePath": "staticwebassets\\css\\index.css"
     },
     {
-      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\css\\mediaQueryProduto.css",
-      "PackagePath": "staticwebassets\\css\\mediaQueryProduto.css"
-    },
-    {
       "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\css\\navbar.css",
       "PackagePath": "staticwebassets\\css\\navbar.css"
     },
@@ -31,6 +27,18 @@
     {
       "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\img\\Facebook.png",
+      "PackagePath": "staticwebassets\\img\\Facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\img\\Instagram.png",
+      "PackagePath": "staticwebassets\\img\\Instagram.png"
+    },
+    {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\img\\WhatsApp.png",
+      "PackagePath": "staticwebassets\\img\\WhatsApp.png"
     },
     {
       "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\img\\areaAtuamos.jpg",
@@ -51,10 +59,6 @@
     {
       "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\img\\donaBia.jpg",
       "PackagePath": "staticwebassets\\img\\donaBia.jpg"
-    },
-    {
-      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\img\\facebook-app-symbol_20837.png",
-      "PackagePath": "staticwebassets\\img\\facebook-app-symbol_20837.png"
     },
     {
       "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\img\\flat-lay-dark-dinnerware-with-chopsticks-napkin_23-2148798064.jpg",
@@ -89,10 +93,6 @@
       "PackagePath": "staticwebassets\\img\\individuaisMesa.jpg"
     },
     {
-      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\img\\instagram_1077042.png",
-      "PackagePath": "staticwebassets\\img\\instagram_1077042.png"
-    },
-    {
       "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\img\\logoDT - Carimbo - branco - noText.png",
       "PackagePath": "staticwebassets\\img\\logoDT - Carimbo - branco - noText.png"
     },
@@ -105,6 +105,10 @@
       "PackagePath": "staticwebassets\\img\\logoDT - Horizontal - cores.png"
     },
     {
+      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\img\\menu.png",
+      "PackagePath": "staticwebassets\\img\\menu.png"
+    },
+    {
       "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\img\\minimal-white-table-assortment.jpg",
       "PackagePath": "staticwebassets\\img\\minimal-white-table-assortment.jpg"
     },
@@ -115,10 +119,6 @@
     {
       "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\img\\top-view-dining-tables-without-food.jpg",
       "PackagePath": "staticwebassets\\img\\top-view-dining-tables-without-food.jpg"
-    },
-    {
-      "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\img\\whatsapp_2111774.png",
-      "PackagePath": "staticwebassets\\img\\whatsapp_2111774.png"
     },
     {
       "Id": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\js\\site.js",

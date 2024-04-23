@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar  navbar-expand-lg navbar-light" style="background-color: white";>
+        <nav class="navbar  navbar-expand-lg navbar-light" style="background-color: white;" id="navbarTop">
             <div class="container-fluid">
                 <a class="navbar-brand border-light" asp-action="index" asp-controller="Home"><img src="~/img/logoDT - Horizontal - cores.png" class="img-change-1" /></a>
                 <a class="navbar-brand border-light img-change-2" asp-action="index" asp-controller="Home"><img src="~/img/logoDT - Carimbo - branco - noText.png" style="max-width:100px;" /></a>
@@ -49,63 +49,62 @@
     </header>
     @RenderBody()
     <footer>
-        <div class="index-footer">
-			<div class="footer-text">. fale connosco. fale connosco. fale connosco . fale connosco</div>
-			<div class="logo-index-footer">
-                <img src="img/logoDT - Carimbo - branco.png" alt="" class="logo-carimbo" style="max-width:150px;">
-				<div class="socialMedia">
-					<img src="img/facebook-app-symbol_20837.png" alt="" style="max-width: 15px;">
-					<img src="img/instagram_1077042.png" alt="" style="max-width: 15px;">
-					<img src="img/whatsapp_2111774.png" alt="" style="max-width: 15px;">
-				</div>
-				<p class="logo-text logo-p1">privacidade . cookies . litígios . livro de reclamações</p>
-				<p class="logo-text logo-p2">Dress Table, Lda &copy; todos os direitos reservados . desenvolvido por Bomsite</p>
-			</div>
+	    <div class="footer-text">
+            <span style="margin-left: 30px">fale connosco .</span><span style="margin-left: 30px">fale connosco .</span><span style="margin-left: 30px">fale connosco .</span><span style="margin-left: 30px">fale connosco .</span><span style="margin-left: 30px">fale connosco .</span><span style="margin-left: 30px">fale connosco .</span><span style="margin-left: 30px">fale connosco .</span><span style="margin-left: 30px">fale connosco .</span>
         </div>
-        <!-- footer produtos -->
-        <div class="produtos-footer">
+        <div class="form-area">
             <p class="footer-text-produto">vamos falar?</p>
             <form>
                 <div class="row form-input">
                     <div class="col-sm-12 col-12">
-                        <input type="email" class="form-control form-input" placeholder="nome da pessoa de contato*">
+                        <input type="email" class="form-control" placeholder="nome pessoa de contacto*">
                     </div>
                     <div class="col-sm-12 col-md-6">
-                        <input type="text" class="form-control form-input" placeholder="email*">
+                        <input type="text" class="form-control" placeholder="email*">
                     </div>
                     <div class="col-sm-12 col-md-6  ">
-                        <input type="text" class="form-control form-input" placeholder="contacto*">
+                        <input type="text" class="form-control" placeholder="contacto*">
                     </div>
                     <div class="col-sm-12 col-md-6  ">
-                        <input type="text" class="form-control form-input" placeholder="área-atividade">
+                        <input type="text" class="form-control" placeholder="área-atividade">
                     </div>
                     <div class="col-sm-12 col-md-6  ">
-                        <input type="text" class="form-control form-input" placeholder="nome do estabelecimento">
+                        <input type="text" class="form-control" placeholder="nome do estabelecimento">
                     </div>
                     <div class="col-12">
-                        <input type="text" class="form-control form-input" placeholder="mensagem*">
+                        <textarea type="text" class="form-control big" placeholder="mensagem*"></textarea>
                     </div>
                 </div>
-                <div class="row term-send">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" style="margin-left: 10px;">
-                    <label class="form-check-label" for="flexCheckDefault">
-                        Li e aceito o processamento dos meus dados pessoais de acordo com a Política de Privacidade
-                    </label>
-                    <button type="submit" class="btn btn-primary col-3" style="margin-top: 10px;">enviar</button>
+
+                <div class="terms-send">
+                    <div class="terms">
+                        <button></button>
+                        <p> Li e aceito o processamento dos meus dados <br /> pessoais de acordo com a Política de Privacidade</p>
+                    </div>
+
+                    <div class="send">
+                        <p style="color: #d0d7ad">enviar</p>
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
+                            </svg>
+                        </button>
+                    </div>
                 </div>
             </form>
-            <div class="logo-produto-footer">
-                <img src="img/logoDT - Carimbo - branco.png" alt="" class="logo-carimbo" style="max-width:150px;">
-                <div class="socialMedia">
-                    <img src="img/facebook-app-symbol_20837.png" alt="" style="max-width: 15px;">
-                    <img src="img/instagram_1077042.png" alt="" style="max-width: 15px;">
-                    <img src="img/whatsapp_2111774.png" alt="" style="max-width: 15px;">
-                </div>
-                <p class="logo-text logo-p1">privacidade . cookies . litígios . livro de reclamações</p>
-                <p class="logo-text logo-p2">Dress Table, Lda &copy; todos os direitos reservados . desenvolvido por Bomsite</p>
-            </div>
         </div>
-
+        <div class="footer">
+            <div class="f-i-a">
+                <img src="img/logoDT - Carimbo - branco.png" alt="" class="logo-carimbo" style="max-width:130px;">
+                <div class="socialMedia">
+                    <img src="img/Facebook.png" alt="" style="max-width: 17px;">
+                    <img src="img/Instagram.png" alt="" style="max-width: 17px;">
+                    <img src="img/WhatsApp.png" alt="" style="max-width: 17px;">
+                </div>
+            </div>
+            <p class="logo-text logo-p1">privacidade  .  cookies  .  litígios  .  livro de reclamações</p>
+            <p class="logo-text logo-p2">Dress Table, Lda &copy; todos os direitos reservados . desenvolvido por Bomsite</p>
+        </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

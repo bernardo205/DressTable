@@ -1,232 +1,6 @@
-
-
-.produtos-footer{
+.form-area {
     display: none;
 }
-/*
-.main-text-area{
-    left: 170px;
-        
-    width: 300px;
-}
-
-
-.main-card-area{
-    left: 100px;
-    margin-top: 80px;
-    margin-bottom: 50px;
-}
-
-.card {
-    width: 400px;
-    text-decoration: none;
-}
-
-.card:hover {
-    border: 1px solid black;
-    transform: scale(1.05);
-    color: black;   
-}
-
-
-
-.area-atuamos{
-    display: flex;
-    left: 173px;
-    margin-bottom:100px;
-}
-
-.atuamos-image{
-    width: 600px;
-    height: 400px;
-}
-
-.atuamos-p1{
-    font-size: 20px;
-    margin-bottom: 50px;
-}
-
-.atuamos-p2{
-    font-size: 50px;
-    font-family: Bona Nova;
-    color: #4c5b63;
-    margin-top: -45px;
-    padding: 0px;
-}   
-*/
-footer{
-    height: 500px;
-}
-/*
-@media only screen and (max-width: 1024px) {
-    .p4{
-        font-size: 150px;
-    }
-
-    .explain-text-area{
-        left: -50px;
-    }
-
-    .btn-mais{
-        left: 450px;
-    }
-
-    .atuamos-image{
-    
-        left: -90px;
-    }
-
-    .atuamos-text{
-    
-        left: -120px;
-    }
-
-    .footer-text{
-        font-size: 34px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    
-    .image-header-container{
-        background: none;
-    }
-
-    .explain-text{
-        width: 500px;
-        font-size: 25px;
-        left: 10%;
-        top: -50px;
-    }
-
-    .main-text-area{
-        left: 150px;
-        top: -10px;
-    }
-
-    .main-p1, .main-p2{
-        left: 20%;
-    }
-
-    .main-card-area{
-        left:150px
-    }
-    
-    .btn-mais{
-        left: 280px;
-    }
-
-    .atuamos-text{
-        left: 60px;
-        top: 25px;
-    }
-
-    .atuamos-image{
-        display: none;
-    }
-    
-    footer{
-        height: 400px;
-    }
-
-    .footer-text{
-        display: none;
-    }
-    
-    .logo{
-        left: 40%;
-    }
-
-    .logo-carimbo, .socialMedia{
-        left: -50px;
-    }
-
-    .logo-p1{
-        left: -80px
-    }
-
-    .logo-p2{
-        left: -80px;
-    }
-}
-
-@media only screen and (max-width: 426px) {
-
-    .p1{
-        font-size: 15px;
-    }
-
-    .p2{
-        font-size: 65px ;
-        font-family: Bona Nova;
-    }
-
-    .p3{
-        font-size: 65px;
-    }
-
-    .p4{
-        margin-top: 30px;
-        margin-left: 0px;
-        font-size: 110px;
-    }
-
-    .explain-text-area {
-        width: 400px;   
-        left: -180px;
-        margin-top: 10px;
-    }
-
-    .explain-text{
-        font-size: 20px;
-    }
-
-    .main-text-area{
-        left: -5px;
-    }
-
-    .main-card-area{
-        left: 35px;
-    }
-
-    .card{
-        width: 350px;
-    }
-
-    .btn-mais{
-        left: 150px;
-        top: -25px;
-    }
-
-    .area-atuamos{
-        left: 50px;
-        top: -50px;
-    }
-    
-    .atuamos-p2{
-        font-size: 35px;
-        margin: -5px;
-    
-    }
-
-    .footer-div{
-        display: none;
-    }
-
-    .logo{
-        left: 150px;
-    }
-
-    .logo-p1{
-        font-size: 15px;
-        left: 0px;
-    }
-
-    .logo-p2{
-        font-size: 8px;
-        margin-left: -40px;
-    }
-}*/
 
 .top-section {
     display: flex;
@@ -255,7 +29,8 @@ footer{
 }
 
 .p2 {
-    font-family: Sora;
+    font-family: Bona Nova;
+    font-style: italic;
     color: #8699a3;
     font-size: 95px;
     position: relative;
@@ -291,9 +66,16 @@ footer{
 }
 
 .explain-text {
-    color: #4c5b63;
-    font-size: 15px;
+    font-size: 14px;
+    position: relative;
+    top: 20px;
+    font-family: 'Sora';
+    line-height: 1.3;
 }
+
+    .explain-text strong {
+        color: #4c5b63;
+    }
 
 .img-part{
     position: relative;
@@ -310,13 +92,13 @@ footer{
 }
 
 .main-section {
-    margin: 160px;
+    margin: 155px 160px;
 }
 
 
 .main-p1 {
     font-family: Bona Nova;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 2.5;
 }
 
@@ -421,4 +203,201 @@ main .card-image {
     font-size: 60px;
     line-height: .9;
     font-family: Bona Nova;
+}
+
+
+footer {
+    height: 675px;
+}
+
+.footer {
+    left: 700px;
+    top: 255px;
+}
+
+
+@media (min-width: 320px) and (max-width: 1024px) {
+
+    .p1 {
+        left: 30px;
+        font-size: 15px;
+    }
+
+    .p2 {
+        font-size: 85px;
+        left: 5%;
+    }
+
+    .p3 {
+        font-size: 112px;
+        left: 5%;
+        top: 155px;
+        line-height: .5;
+    }
+
+    .p4 {
+        font-size: 100px;
+        left: 5%;
+        top: 120px;
+    }
+
+    .explain-text {
+        left: -140px;
+    }
+}
+@media (min-width: 320px) and (max-width: 1440px) {
+    .top-section {
+        height: 600px;
+    }
+
+
+
+    .main-section {
+        margin: 190px 5%;
+    }
+
+    .main-p2 {
+        font-size: 45px;
+    }
+
+    main .card-image {
+        width: 75%;
+        height: 400px;
+        margin-left: 10px;
+    }
+
+    .main-card-area .move {
+        top: 0;
+    }
+
+    main .card-body {
+        width: 290px;
+        font-size: 13px;
+    }
+
+    .btn-mais {
+        top: 0;
+        left: 45px;
+    }
+
+    .area-atuamos img {
+        display: none;
+    }
+
+    .atuamos-p2 {
+        font-size: 50px;
+    }
+
+    .atuamos-text {
+        position: relative;
+        left: -55px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 1024px) {
+    .p2, .p3, .p4 {
+        left: 10%;
+    }
+
+    .explain-text {
+        left: -110px;
+    }
+
+    .explain-text {
+        left: -110px;
+    }
+}
+@media (min-width: 375px) and (max-width: 1440px) {
+    .main-section {
+        margin-left: 10%;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 1440px) {
+    .img-part img {
+        opacity: 0;
+    }
+
+    main .card-image {
+        width: 90%;
+    }
+
+    main .card-body {
+        font-size: 15px;
+    }
+
+    .atuamos-p2 {
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1440px) {
+    .img-part img {
+        opacity: 1;
+    }
+
+    .main-section {
+        margin-top: 290px;
+    }
+
+    .main-card-area {
+        padding: 0px 100px;
+    }
+
+    main .card-body {
+        width: 330px;
+    }
+
+    main .card-image {
+        width: 100%;
+    }
+
+    .btn-mais {
+        left: 190px;
+    }
+
+    .area-atuamos img {
+        display: inherit;
+        height: 330px;
+        width: 345px;
+    }
+
+    .atuamos-image {
+        position: relative;
+        top: 90px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .main-card-area {
+        padding: 0;
+    }
+
+    .btn-mais {
+        left: 310px;
+    }
+
+    .p3 {
+        top: 140px;
+        line-height: .5;
+    }
+
+    .p4 {
+        top: 0;
+    }
+
+    .top-section {
+        height: 800px;
+    }
+
+    .btn-mais {
+        left: 490px;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1516px) {
+    .main-section {
+        margin-left: 120px;
+        margin-right: 120px;
+    }
 }

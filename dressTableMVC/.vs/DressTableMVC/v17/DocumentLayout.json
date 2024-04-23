@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0E487C2-CA3F-4B38-B464-66A7A0073B6B}|DressTable.csproj|c:\\users\\berna\\desktop\\isla\\estagio\\dresstable\\dresstablemvc\\views\\home\\produtos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D0E487C2-CA3F-4B38-B464-66A7A0073B6B}|DressTable.csproj|solutionrelative:views\\home\\produtos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D0E487C2-CA3F-4B38-B464-66A7A0073B6B}|DressTable.csproj|c:\\users\\berna\\desktop\\isla\\estagio\\dresstable\\dresstablemvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D0E487C2-CA3F-4B38-B464-66A7A0073B6B}|DressTable.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0E487C2-CA3F-4B38-B464-66A7A0073B6B}|DressTable.csproj|c:\\users\\berna\\desktop\\isla\\estagio\\dresstable\\dresstablemvc\\wwwroot\\css\\produtos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -32,22 +32,9 @@
               "RelativeDocumentMoniker": "wwwroot\\css\\index.css",
               "ToolTip": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\css\\index.css",
               "RelativeToolTip": "wwwroot\\css\\index.css",
-              "ViewState": "AQIAAAsBAAAAAAAAAAAAABkBAAABAAAA",
+              "ViewState": "AQIAAG4BAAAAAAAAAAAkwIkBAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-19T16:34:47.221Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "produtos.cshtml",
-              "DocumentMoniker": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\Views\\Home\\produtos.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\produtos.cshtml",
-              "ToolTip": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\Views\\Home\\produtos.cshtml",
-              "RelativeToolTip": "Views\\Home\\produtos.cshtml",
-              "ViewState": "AQIAAGAAAAAAAAAAAAAcwGYAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-19T15:39:19.02Z",
+              "WhenOpened": "2024-04-23T13:26:18.245Z",
               "EditorCaption": ""
             },
             {
@@ -58,14 +45,27 @@
               "RelativeDocumentMoniker": "wwwroot\\css\\produtos.css",
               "ToolTip": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\css\\produtos.css",
               "RelativeToolTip": "wwwroot\\css\\produtos.css",
-              "ViewState": "AQIAABMBAAAAAAAAAAAcwCsBAAAMAAAA",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAAAJcAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-19T15:39:14.438Z",
+              "WhenOpened": "2024-04-23T13:01:53.372Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAAO4AAAAAAAAAAAAAAAwBAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-22T13:01:56.481Z",
+              "EditorCaption": ""
             }
           ]
         }
