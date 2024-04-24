@@ -105,6 +105,8 @@ main .card-image {
     height: 415px;
     margin: -14px 160px;
     margin-bottom: 165px;
+
+
 }
 
 .ecoCard-p1 {
@@ -136,23 +138,164 @@ main .card-image {
     font-size: 15px;
 }
 
-.ecoCard-mini {
-    display: none;
-}
+
 
 main .ecoCard-img {
     border-radius: 30px;
     height: 415px;
 }
 
+.ecoCard-mini {
+    margin: 30px 0;
 
-@media (min-width: 320px) {
-    
+    display: none;
+}
+
+.ecoCard-mini .eC-t-A{
+    padding: 10px;
+}
+
+.ecoCard-mini .eC-p1 {
+    font-family: Bona Nova;
+    font-size: 60px;
+    line-height: .9;
+    top: 65px;
+}
+
+.ecoCard-mini .eC-h5 {
+    font-family: MonteCarlo;
+    font-size: 75px;
+    position: relative;
+    top: -50px;
+}
+
+.ecoCard-mini .eC-p2 {
+    line-height: 1.1;
+    position: relative;
+    top: -40px;
+    font-family: Sora;
+    font-size: 14px;
+}
+
+@media (min-width: 320px) and (max-width: 1023px) {
+
     footer {
         height: 1350px;
     }
-    
+
     .logo-text {
         left: -680px;
+    }
+
+    .top-section {
+        margin-left: 15px;
+    }
+
+    .rotate, .s-t-a-1 span {
+        display: none;
+    }
+
+    .p2 {
+        font-size: 52px;
+    }
+
+    .p4 {
+        font-size: 91px;
+        top: -10px;
+        left: 0;
+    }
+
+    .s-t-a-1 {
+        font-size: 15px;
+    }
+
+    .s-t-a-2, .s-t-a-3 {
+        top: 0px;
+        font-size: 15px;
+        line-height: 1;
+    }
+
+    main .main-card-area {
+        margin: 0px 10px;
+    }
+
+    main .card-image {
+        width: 300px;
+    }
+
+    .ecoCard-big {
+        display: none;
+    }
+
+    .ecoCard-mini {
+        display: block;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 1023px) {
+    .top-section {
+        margin-left: 55px;
+    }
+
+    main .main-card-area {
+        margin: 0px 50px;
+    }
+
+    main .card-image {
+        width: 325px;
+    }
+
+    .ecoCard-mini .eC-t-A {
+        padding: 10px 48px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .top-img img {
+        width: 350px;
+        left: 25px;
+    }
+
+    .sec-text-area {
+        width: 300px;
+    }
+
+    .top-section {
+        margin-left: 30px;
+    }
+
+    main .main-card-area {
+        margin: 50px 50px;
+    }
+
+    main .col {
+        width: 325px;
+    }
+
+    .ecoCard-big {
+        display: block;
+    }
+
+    .ecoCard {
+        margin: 10px 45px;
+    }
+
+    .ecoCard-p1, .ecoCard-h5, .ecoCard-p2 {
+        left: 0;
+    }
+
+    .ecoCard-mini {
+        display: none;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    main .main-card-area {
+        margin: 130px 115px;
+    }
+
+    footer {
+        height: 1100px;
     }
 }
