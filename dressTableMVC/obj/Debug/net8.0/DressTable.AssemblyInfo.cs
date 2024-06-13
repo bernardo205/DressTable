@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DressTable")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ddb7807bcc543a613cfe0c0dcb6811da91dd53e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77efd54c2712d03c1d79a9ffae936afcecfce3e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("DressTable")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DressTable")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -11,42 +11,191 @@
     <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=MonteCarlo&family=Sora:wght@100..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav class="navbar  navbar-expand-lg navbar-light" style="background-color: white;" id="navbarTop">
-            <div class="container-fluid">
-                <a class="navbar-brand border-light" asp-action="index" asp-controller="Home"><img src="~/img/logoDT - Horizontal - cores.png" class="img-change-1" /></a>
-                <a class="navbar-brand border-light img-change-2" asp-action="index" asp-controller="Home"><img src="~/img/logoDT - Carimbo - branco - noText.png" style="max-width:100px;" /></a>
-                <button class="navbar-toggler bg-color secret-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse col-lg-7 col-xl-5 " id="navbarTogglerDemo02">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link disabled" aria-current="page" asp-action="produtos" asp-controller="Home">sobre</a>
-                        </li>                    
-                        <li class="nav-item">
-                            <a class="nav-link disabled" aria-current="page" asp-action="produtos" asp-controller="Home">áreas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" asp-action="produtos" asp-controller="Home">produtos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" aria-current="page" asp-action="produtos" asp-controller="Home">personalizar</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" aria-current="page" asp-action="produtos" asp-controller="Home">sustentibilidade</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" aria-current="page" asp-action="produtos" asp-controller="Home">contactos</a>
-                        </li>                
-                        <li class="nav-item">
-                            <a class="nav-link disabled" aria-current="page" asp-action="produtos" asp-controller="Home">pt</a>
-                        </li>
-                    </ul>
+    <header id="header">
+        <nav id="nav">
+            <div class="nav-container">
+                <div class="n-bar row">
+                    <div class="col-2 text-xl-left logo-col">
+                        <a class="logo " asp-action="Index" asp-controller="Home">
+                            <img src="~/img/logoDT - Horizontal - cores.png" class="logo-img responsive-img img-fluid "/>
+                            <img src="~/img/logoDT - Horizontal - cores.png" class="logo-img responsive img-fluid"  />
+                        </a>
+                        <a class="logo back" asp-action="Index" asp-controller="Home">
+                            <img src="~/img/logoDT - Carimbo - branco - noText.png" class="logo-img responsive-img img-fluid"/>
+                            <img src="~/img/logoDT - Horizontal - cores.png" class="logo-img responsive img-fluid" />
+                        </a>
+                    </div>
+                    <div class="col-10 justify-content-end align-items-center links">
+                        <div class="d-flex justify-content-end">
+                            <div class="menu d-flex" id="menu">
+                                <div class="menu-item">
+                                    <a class="item responsive-menu-item">
+                                        sobre
+                                    </a>
+                                </div>                                
+                                <div class="menu-item">
+                                    <a class="item responsive-menu-item">
+                                        áreas
+                                    </a>
+                                </div>                                
+                                <div class="menu-item">
+                                    <a asp-action="produtos" asp-controller="Home" class="item responsive-menu-item">
+                                        produtos
+                                    </a>
+                                </div>                                
+                                <div class="menu-item">
+                                    <a class="item responsive-menu-item">
+                                        personalizar
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="item responsive-menu-item">
+                                        sustentabilidade
+                                    </a>
+                                </div>
+                                <div class="menu-item">
+                                    <a class="item responsive-menu-item">
+                                        contactos
+                                    </a>
+                                </div>
+                                <a class="flag">pt</a>
+                            </div>
+                            <div class="responsive-menu">
+                                <button id="header_minimenu" class="navbar-toggler header-nav-menu d-lg-none" type="button" data-toggle data-target aria-controls aria-expanded="false" aria-label>
+                                    <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 6H20M4 12H14M4 18H9" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 menu-responsive d-none" id="responsivemenucontent">
+                    <div class="menu-item">
+                        <a class="item responsive-menu-item">
+                            sobre
+                        </a>
+                    </div>
+                    <div class="menu-item">
+                        <a class="item responsive-menu-item">
+                            áreas
+                        </a>
+                    </div>
+                    <div class="menu-item">
+                        <a asp-action="produtos" asp-controller="Home" class="item responsive-menu-item">
+                            produtos
+                        </a>
+                    </div>
+                    <div class="menu-item">
+                        <a class="item responsive-menu-item">
+                            personalizar
+                        </a>
+                    </div>
+                    <div class="menu-item">
+                        <a class="item responsive-menu-item">
+                            sustentabilidade
+                        </a>
+                    </div>
+                    <div class="menu-item">
+                        <a class="item responsive-menu-item">
+                            contactos
+                        </a>
+                    </div>
+                    <div class="cultures responsive-coltures">
+						<a class="flag">
+                            pt
+                        </a>
+                    </div>
+                    
                 </div>
             </div>
+            <div class="close-header-menu-wrapper d-none" id="menu-close">
+                <button id="close-header-menu" class="header-nav-menu navbar-toggler " type="button" data-toggle data-target aria-controls aria-expanded aria-label>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" class="bi bi-x-lg" viewBox="0 0 16 16">
+                        <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+					</svg>
+                </button>
+			</div>
         </nav>
+
+        
     </header>
+    <script>
+        const headerElement = document.getElementById('header');
+        const navElement = document.getElementById('nav');
+        const menuElement = document.getElementById('menu');
+        const responsiveElement = document.getElementById('responsivemenucontent');
+        const buttonElement = document.getElementById('header_minimenu');
+        const closeElement = document.getElementById('menu-close');
+
+        window.addEventListener('scroll', function () {
+            const scrollTop = window.scrollY;
+
+            if (scrollTop > 20) {
+                navElement.classList.add('scroll');
+                menuElement.classList.remove('d-flex');
+                menuElement.classList.add('d-none');
+                buttonElement.classList.remove('d-lg-none');
+                buttonElement.classList.add('d-block');
+            } else {
+                navElement.classList.remove('scroll');
+                menuElement.classList.remove('d-none');
+                menuElement.classList.remove('d-none');
+                menuElement.classList.add('d-flex');
+                buttonElement.classList.add('d-lg-none');
+                buttonElement.classList.remove('d-block');
+            }
+        });
+
+        buttonElement.addEventListener('click', function() {
+            const width = window.innerWidth;
+
+
+            if (width <= 991) {
+                responsiveElement.classList.remove('d-none');
+                headerElement.classList.add('white');
+                buttonElement.classList.remove('d-block');
+                buttonElement.classList.add('d-none');
+                closeElement.classList.remove('d-none');
+                closeElement.classList.add('d-block');
+                menuElement.classList.add('p-3');
+            }
+            else {
+                menuElement.classList.remove('d-none');
+                menuElement.classList.add('d-flex');
+                headerElement.classList.add('white');
+                buttonElement.classList.remove('d-block');
+                buttonElement.classList.add('d-none');
+                closeElement.classList.remove('d-none');
+                menuElement.classList.add('p-3');
+            }
+        });
+
+        closeElement.addEventListener('click', function () {
+            const width = window.innerWidth;
+
+
+            if (width <= 991) {
+                responsiveElement.classList.add('d-none');
+                headerElement.classList.remove('white');
+                buttonElement.classList.remove('d-none');
+                buttonElement.classList.add('d-block');
+                closeElement.classList.remove('d-block');
+                closeElement.classList.add('d-none');
+                menuElement.classList.remove('p-3');
+            }
+            else {
+                menuElement.classList.add('d-none');
+                menuElement.classList.remove('d-flex');
+                headerElement.classList.remove('white');
+                buttonElement.classList.remove('d-none');
+                buttonElement.classList.add('d-block');
+                closeElement.classList.remove('d-block');
+                closeElement.classList.add('d-none');
+                menuElement.classList.remove('p-3');
+            }
+        });
+
+    </script>
+
     @RenderBody()
     <footer>
 	    <div class="footer-text">

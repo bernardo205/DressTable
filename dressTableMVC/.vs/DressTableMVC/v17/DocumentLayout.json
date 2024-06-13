@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{D0E487C2-CA3F-4B38-B464-66A7A0073B6B}|DressTable.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0E487C2-CA3F-4B38-B464-66A7A0073B6B}|DressTable.csproj|c:\\users\\berna\\desktop\\isla\\estagio\\dresstable\\dresstablemvc\\wwwroot\\css\\produtos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D0E487C2-CA3F-4B38-B464-66A7A0073B6B}|DressTable.csproj|solutionrelative:wwwroot\\css\\produtos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{D0E487C2-CA3F-4B38-B464-66A7A0073B6B}|DressTable.csproj|c:\\users\\berna\\desktop\\isla\\estagio\\dresstable\\dresstablemvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0E487C2-CA3F-4B38-B464-66A7A0073B6B}|DressTable.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0E487C2-CA3F-4B38-B464-66A7A0073B6B}|DressTable.csproj|c:\\users\\berna\\desktop\\isla\\estagio\\dresstable\\dresstablemvc\\views\\home\\produtos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D0E487C2-CA3F-4B38-B464-66A7A0073B6B}|DressTable.csproj|solutionrelative:views\\home\\produtos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D0E487C2-CA3F-4B38-B464-66A7A0073B6B}|DressTable.csproj|c:\\users\\berna\\desktop\\isla\\estagio\\dresstable\\dresstablemvc\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D0E487C2-CA3F-4B38-B464-66A7A0073B6B}|DressTable.csproj|solutionrelative:wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,27 +31,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "produtos.cshtml",
-              "DocumentMoniker": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\Views\\Home\\produtos.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\produtos.cshtml",
-              "ToolTip": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\Views\\Home\\produtos.cshtml",
-              "RelativeToolTip": "Views\\Home\\produtos.cshtml",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAAAFkAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-24T08:31:52.214Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "produtos.css",
-              "DocumentMoniker": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\css\\produtos.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\produtos.css",
-              "ToolTip": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\css\\produtos.css",
-              "RelativeToolTip": "wwwroot\\css\\produtos.css",
-              "ViewState": "AQIAABUBAAAAAAAAAAAAwCsBAAAFAAAA",
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\css\\index.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\index.css",
+              "ToolTip": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\css\\index.css",
+              "RelativeToolTip": "wwwroot\\css\\index.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-23T13:01:53.372Z",
+              "WhenOpened": "2024-06-13T13:22:54.43Z",
               "EditorCaption": ""
             },
             {
@@ -62,9 +49,22 @@
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\wwwroot\\css\\site.css",
               "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AQIAAAsBAAAAAAAAAAAQwCEBAAAYAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAqwCIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-22T13:01:56.481Z",
+              "WhenOpened": "2024-06-11T08:15:29.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\berna\\Desktop\\isla\\Estagio\\dressTable\\dressTableMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAswMAAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T08:15:25.304Z",
               "EditorCaption": ""
             }
           ]
